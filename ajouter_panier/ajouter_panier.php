@@ -13,7 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['panier'] = [];
     }
 
-    // Ajouter la pièce au panier
     $_SESSION['panier'][] = $piece;
 
     echo "Pièce ajoutée au panier.<br>";
